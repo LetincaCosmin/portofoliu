@@ -765,13 +765,18 @@ h1 {
 
 
 
-/* Când ecranul este pe lateral (landscape) și are înălțime mică */
+/* Reparare afișare pe lateral (Landscape) */
 @media (max-height: 500px) and (orientation: landscape) {
-    .hero {
-        padding-top: 120px !important; /* Împinge textul și albinuța mai jos */
+    .hero-section {
+        padding-top: 120px !important; /* Împinge conținutul sub meniu */
     }
     
-    .hero h1 {
-        font-size: 1.8rem !important; /* Micșorăm puțin textul să nu ocupe tot ecranul */
+    .hero-section h1 {
+        font-size: 1.8rem !important; /* Face titlul un pic mai mic să încapă tot */
+    }
+
+    /* Dacă albinuța tot stă peste text, o putem face puțin mai mică aici */
+    .bee-animated {
+        width: 35px !important; 
     }
 }

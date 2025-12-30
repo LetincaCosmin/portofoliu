@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Albinuța Hărnicuța - Curățenie Profesională</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">
+            <img src="img/logo.png" alt="Logo">
+            <span>Albinuța Hărnicuța</span>
+        </div>
+        <div class="hamburger" id="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="nav-links" id="nav-menu">
+            <li><a href="#acasa">Acasă</a></li>
+            <li><a href="#servicii">Servicii</a></li>
+            <li><a href="#preturi">Prețuri</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero-section reveal" id="acasa">
+        <div class="hero-content">
+            <div class="bee-container">
+        <span class="bee-animated">🐝</span>
+            </div>
+            <h1 class="reveal">Albinuța Hărnicuța: Strălucire în fiecare colț!</h1>
+            <p>Servicii profesionale de curățenie care îți oferă timpul liber înapoi.</p>
+            <div class="cta-area">
+                <button class="btn-primary">Cere o ofertă rapidă</button>
+                <button class="btn-secondary" onclick="location.href='#servicii'">Vezi servicii</button>
+            </div>
+        </div>
+
+        <div class="custom-shape-divider-bottom">
+            <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M1200 120L0 120 309.19 8.12 1200 120z" fill="#1a1a1a"></path>
+            </svg>
+        </div>
+    </section>
+
+    <section class="services reveal" id="servicii">
+        <h2 class="section-title">Serviciile Noastre</h2>
+        <div class="services-container">
+            <div class="service-card">
+                <div class="card-icon">🏠</div>
+                <h3>Curățenie de Întreținere</h3>
+                <p>Ideală pentru menținerea ordinii săptămânale în locuința ta.</p>
+            </div>
+            <div class="service-card">
+                <div class="card-icon">✨</div>
+                <h3>Curățenie Generală</h3>
+                <p>O igienizare profundă a fiecărui colțișor, de două ori pe an.</p>
+            </div>
+            <div class="service-card">
+                <div class="card-icon">🏗️</div>
+                <h3>După Constructor</h3>
+                <p>Scăpăm de praf și moloz ca tu să te poți muta imediat.</p>
+            </div>
+            <div class="service-card">
+                <div class="card-icon">🧼</div> <h3>Curățenie Geamuri</h3>
+                <p>Lăsăm lumina să intre în casa ta prin ferestre impecabile.</p>
+            </div>
+            <div class="service-card">
+                <div class="card-icon">🌿</div> <h3>Întreținere Spații Verzi</h3>
+            <p>Tuns iarba, toaletare gard viu și îngrijirea grădinii pentru o curte de vis.</p>
+</div>
+        </div>
+    </section>
+
+<div class="spacer-divider">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V120H282.65C297.44,101.4,303.44,70.18,321.39,56.44Z" fill="#ffcc00"></path>
+    </svg>
+</div>
+
+    <section class="calculator-section reveal" id="preturi">
+    <h2 class="section-title">Calculator Estimativ</h2>
+    <div class="calculator-container">
+        <div class="calc-input-group">
+            <label>Alege Serviciul:</label>
+            <select id="service-type">
+                <option value="10">Curățenie de Întreținere (10 lei/mp)</option>
+                <option value="15">Curățenie Generală (15 lei/mp)</option>
+                <option value="20">După Constructor (20 lei/mp)</option>
+                <option value="30">Geamuri(30 lei/mp)</option>
+                <option value="40">Spatii Verzi(40 lei/mp)</option>
+                </select>
+        </div>
+
+        <div class="calc-input-group">
+            <label>Suprafață (mp):</label>
+            <input type="number" id="area" placeholder="Ex: 50" min="1">
+        </div>
+
+        <div class="result-area">
+            <h3>Preț Estimativ: <span id="total-price">0</span> RON</h3>
+
+        </div>
+ <a href="#" id="whatsapp-btn" class="btn-whatsapp" target="_blank">
+        Rezervă pe WhatsApp 💬
+    </a>
+
+        <button class="btn-primary" id="calculate-btn">Calculează Acum</button>
+            
+    </div>
+</section>
+
+
+<div class="trust-bar">
+    <div class="stat-item">
+        <span class="stat-number">500+</span>
+        <span class="stat-text">Case Curățate</span>
+    </div>
+    <div class="stat-item">
+        <span class="stat-number">100%</span>
+        <span class="stat-text">Clienți Mulțumiți</span>
+    </div>
+    <div class="stat-item">
+        <span class="stat-number">24/7</span>
+        <span class="stat-text">Suport Clienți</span>
+    </div>
+</div>
+   
+
+ 
+
+<section class="contact-section reveal" id="contact">
+    <h2 class="section-title">Contactează-ne</h2>
+    <p class="section-subtitle">Suntem la un singur click distanță de curățenia ta perfectă! 🐝</p>
+
+    <div class="contact-container">
+        <div class="contact-form">
+            <h3>Trimite un mesaj</h3>
+            <form id="main-contact-form">
+                <div class="input-box">
+                    <input type="text" id="name" required placeholder="Numele tău complet">
+                </div>
+                <div class="input-box">
+                    <input type="email" id="email" required placeholder="Adresa de email">
+                </div>
+                <div class="input-box">
+                    <textarea id="message" required placeholder="Cu ce te putem ajuta? (Detalii locație, tip serviciu...)"></textarea>
+                </div>
+                <button type="submit" class="btn-primary">Trimite Mesajul ✨</button>
+            </form>
+        </div>
+
+        <div class="contact-info">
+            <div class="info-card">
+                <div class="info-icon">📞</div>
+                <div class="info-text">
+                    <h4>Telefon</h4>
+                    <a href="tel:+407XXXXXXXX">+40 7XX XXX XXX</a>
+                </div>
+            </div>
+
+            <div class="info-card">
+                <div class="info-icon">📧</div>
+                <div class="info-text">
+                    <h4>Email</h4>
+                    <a href="mailto:contact@albinuta.ro">contact@albinuta.ro</a>
+                </div>
+            </div>
+
+            <div class="info-card">
+                <div class="info-icon">📍</div>
+                <div class="info-text">
+                    <h4>Acoperire</h4>
+                    <p>Resita</p>
+                </div>
+            </div>
+
+            <div class="info-card">
+                <div class="info-icon">⏰</div>
+                <div class="info-text">
+                    <h4>Program</h4>
+                    <p>Luni - Sâmbătă: 08:00 - 20:00</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="map-wrapper">
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5610.659250799041!2d21.88001457618914!3d45.321965842917685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x474fd608df0874bd%3A0x9438d5e0ffd832aa!2zU3RyYWRhIEbEg2fEg3JhxZ91bHVpIDVBLCBSZciZacibYSAzMjAxNjIsIFJvbcOibmlh!5e0!3m2!1sro!2sde!4v1767131652801!5m2!1sro!2sde"
+            width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy">
+        </iframe>
+    </div>
+</section>
+
+
+<footer class="main-footer">
+    <div class="footer-content">
+        <div class="footer-logo">
+            <span class="bee-logo">🐝</span>
+            <h3>Albinuța Hărnicuță</h3>
+            <p>Strălucire în fiecare colț al casei tale!</p>
+        </div>
+
+        <div class="footer-links">
+            <h4>Link-uri</h4>
+            <ul>
+                <li><a href="#acasa">Acasă</a></li>
+                <li><a href="#servicii">Servicii</a></li>
+                <li><a href="#preturi">Calculator</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-social">
+            <h4>Urmărește-ne</h4>
+            <div class="social-icons">
+                <a href="#" class="social-icon">FB</a>
+                <a href="#" class="social-icon">IG</a>
+                <a href="#" class="social-icon">TK</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy; 2025 Albinuța Hărnicuță. Toate drepturile rezervate.</p>
+        <p>Realizat cu ✨ pentru un plus de strălucire.</p>
+    </div>
+</footer>
+
+
+   <div class="floating-socials">
+    <a href="https://facebook.com/pagina-ta" class="float-btn fb" target="_blank">
+        <span class="tooltip">Facebook</span>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/2021_Facebook_icon.svg" alt="FB">
+    </a>
+    
+    <a href="https://wa.me/407XXXXXXXX" class="float-btn wa" target="_blank">
+        <span class="tooltip">WhatsApp</span>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WA">
+    </a>
+</div>
+
+
+ <script src="js/script.js" defer></script>
+</body>
+</html>

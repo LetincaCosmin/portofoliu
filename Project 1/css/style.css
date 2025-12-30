@@ -762,3 +762,16 @@ h1 {
 .service-card:nth-child(5) { transition-delay: 0.1s !important; } 
 
 .service-card:nth-child(6) { transition-delay: 0.2s !important; }
+
+
+
+/* Când ecranul este pe lateral (landscape) și are înălțime mică */
+@media (max-height: 500px) and (orientation: landscape) {
+    .hero {
+        padding-top: 120px !important; /* Împinge textul și albinuța mai jos */
+    }
+    
+    .hero h1 {
+        font-size: 1.8rem !important; /* Micșorăm puțin textul să nu ocupe tot ecranul */
+    }
+}

@@ -1,0 +1,485 @@
+<!doctype html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+
+    <title>Casa Rustica - Restaurant & Evenimente Exclusive</title>
+    <meta
+      name="description"
+      content="Descoperă restaurantul unde gustul rafinat întâlnește atmosfera exclusivistă. Meniu gourmet, evenimente live și experiențe culinare de neuitat."
+    />
+    <meta
+      name="keywords"
+      content="restaurant Jimmy, gourmet, evenimente live, meniu restaurant, cină romantică"
+    />
+    <meta name="author" content="Restaurant" />
+
+    <meta property="og:type" content="website" />
+
+    <meta property="og:title" content="Restaurant & Evenimente Exclusive" />
+    <meta
+      property="og:description"
+      content="O experiență culinară unică. Vino să guști preparatele noastre deosebite într-un decor de poveste."
+    />
+
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <meta
+      property="twitter:title"
+      content="Restaurant & Evenimente Exclusive"
+    />
+    <meta
+      property="twitter:description"
+      content="O experiență culinară unică. Vino să guști preparatele noastre deosebite într-un decor de poveste."
+    />
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="navbar">
+        <div class="logo"><span class="spic">🌾</span> Casa Rustica</div>
+
+        <div class="menu-toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+
+        <ul class="nav-links">
+          <li class="active"><a href="#acasa">Acasă</a></li>
+          <li><a href="#despre-noi">Despre Noi</a></li>
+          <li><a href="#meniu">Meniu</a></li>
+          <li><a href="#evenimente">Evenimente</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li>
+            <a
+              href="https://wa.me/490000000000"
+              target="_blank"
+              class="btn-whatsapp"
+            >
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+                alt="WhatsApp"
+                width="25"
+              />
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="hero-content">
+        <h1>Ospitalitatea<br />Românească se<br />reinventează</h1>
+        <a href="#meniu" class="cta-button">Explorează Meniul</a>
+      </div>
+    </header>
+
+    <section id="despre-noi" class="about-section">
+      <div class="container">
+        <div class="about-content">
+          <div class="about-text">
+            <span class="subtitle">Povestea Noastră</span>
+            <h2>Tradiție Românească în Inima Bavariei</h2>
+            <div class="separator-left"></div>
+            <p>
+              Casa Rustica s-a născut din dorul de gustul autentic de acasă și
+              din dorința de a împărtăși bogăția gastronomiei românești cu
+              publicul din München.
+            </p>
+            <p>
+              Fiecare preparat din meniul nostru este gătit după rețete vechi,
+              transmise din generație în generație, folosind ingrediente atent
+              selecționate pentru a vă oferi o experiență culinară de neuitat,
+              într-o atmosferă caldă și primitoare.
+            </p>
+            <a href="#rezervari" class="cta-link">Află mai multe</a>
+          </div>
+          <div class="about-image">
+            <div class="image-frame">
+              <img
+                src="img/interior-restaurant.png"
+                alt="Interior Casa Rustica"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="meniu" class="menu-section">
+      <div class="container">
+        <div class="menu-header">
+          <span class="subtitle">Specialități</span>
+          <h2>Meniul Nostru</h2>
+          <div class="separator-center"></div>
+        </div>
+
+        <div class="menu-tabs">
+          <button class="tab-btn active" data-id="aperitiv">Aperitive</button>
+          <button class="tab-btn" data-id="ciorbe">Ciorbe</button>
+          <button class="tab-btn" data-id="pui">Pui</button>
+          <button class="tab-btn" data-id="porc">Tradiționale / Porc</button>
+          <button class="tab-btn" data-id="desert">Desert</button>
+        </div>
+
+        <div class="menu-grid">
+          <div class="menu-item active" data-category="aperitiv">
+            <div class="item-image">
+              <img
+                src="img/ciorba-burta.jpg"
+                alt="Salată de Vinete Casa Rustica"
+              />
+            </div>
+            <div class="item-info">
+              <div class="item-title">
+                <h4>Salată de Vinete</h4>
+                <span class="price">12.50 €</span>
+              </div>
+              <p>
+                Vinete coapte pe grătar, servite cu ceapă roșie, roșii proaspete
+                și pâine de casă prăjită.
+              </p>
+            </div>
+          </div>
+
+          <div class="menu-item active" data-category="aperitiv">
+            <div class="item-image">
+              <img
+                src="img/ciorba-burta.jpg"
+                alt="Platou Țărănesc Casa Rustica"
+              />
+            </div>
+            <div class="item-info">
+              <div class="item-title">
+                <h4>Platou Țărănesc</h4>
+                <span class="price">24.50 €</span>
+              </div>
+              <p>
+                Selecție de brânzeturi, mezeluri tradiționale, zacuști,
+                slăninuță și ceapă roșie.
+              </p>
+            </div>
+          </div>
+
+          <div class="menu-item" data-category="ciorbe">
+            <div class="item-image">
+              <img src="img/ciorba-burta.jpg" alt="Ciorbă de Burtă" />
+            </div>
+            <div class="item-info">
+              <div class="item-title">
+                <h4>Ciorbă de Burtă</h4>
+                <span class="price">14.50 €</span>
+              </div>
+              <p>
+                Rețetă autentică cremoasă, servită cu smântână, ardei iute și
+                hrean.
+              </p>
+            </div>
+          </div>
+
+          <div class="menu-item" data-category="ciorbe">
+            <div class="item-image">
+              <img src="img/ciorba-burta.jpg" alt="Ciorbă Rădăuțeană" />
+            </div>
+            <div class="item-info">
+              <div class="item-title">
+                <h4>Ciorbă Rădăuțeană</h4>
+                <span class="price">13.50 €</span>
+              </div>
+              <p>
+                Bogată în fâșii de pui, usturoi și dreasă cu smântână din
+                belșug.
+              </p>
+            </div>
+          </div>
+
+          <div class="menu-item" data-category="pui">
+            <div class="item-image">
+              <img src="img/ciorba-burta.jpg" alt="Piept de pui" />
+            </div>
+            <div class="item-info">
+              <div class="item-title">
+                <h4>Piept de pui la grătar</h4>
+                <span class="price">18.50 €</span>
+              </div>
+              <p>Servit cu cartofi rustici aromați cu rozmarin și usturoi.</p>
+            </div>
+          </div>
+
+          <div class="menu-item" data-category="pui">
+            <div class="item-image">
+              <img src="img/ciorba-burta.jpg" alt="Ciulama de pui" />
+            </div>
+            <div class="item-info">
+              <div class="item-title">
+                <h4>Ciulama de ciuperci cu pui</h4>
+                <span class="price">19.50 €</span>
+              </div>
+              <p>
+                Pui fraged în sos cremos de ciuperci, acompaniat de mămăliguță
+                caldă.
+              </p>
+            </div>
+          </div>
+
+          <div class="menu-item" data-category="porc">
+            <div class="item-image">
+              <img src="img/ciorba-burta.jpg" alt="Tochitură" />
+            </div>
+            <div class="item-info">
+              <div class="item-title">
+                <h4>Tochitură Moldovenească</h4>
+                <span class="price">21.50 €</span>
+              </div>
+              <p>
+                Carne de porc, cârnați afumați, ou ochi, brânză și mămăligă.
+              </p>
+            </div>
+          </div>
+
+          <div class="menu-item" data-category="porc">
+            <div class="item-image">
+              <img src="img/ciorba-burta.jpg" alt="Sarmale" />
+            </div>
+            <div class="item-info">
+              <div class="item-title">
+                <h4>Sarmale Tradiționale</h4>
+                <span class="price">19.00 €</span>
+              </div>
+              <p>
+                În foi de varză murată, servite cu mămăliguță, smântână și
+                ardei.
+              </p>
+            </div>
+          </div>
+
+          <div class="menu-item" data-category="desert">
+            <div class="item-image">
+              <img src="img/ciorba-burta.jpg" alt="Papanași" />
+            </div>
+            <div class="item-info">
+              <div class="item-title">
+                <h4>Papanași cu Dulceață</h4>
+                <span class="price">9.50 €</span>
+              </div>
+              <p>
+                Două bucăți pufoase, cu smântână grasă și dulceață de afine.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="evenimente" class="events-section">
+      <div class="container">
+        <div class="events-grid">
+          <div class="events-image">
+            <div class="video-placeholder">
+              <img
+                src="img/events.png"
+                alt="Evenimente Casa Rustica Eching"
+                class="main-img"
+              />
+              <div class="play-button">
+                <i class="fas fa-music"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="events-content">
+            <span class="subtitle">Show & Petrecere</span>
+            <h2>Evenimente cu Artiști de Renume</h2>
+            <div class="separator-left"></div>
+            <p>
+              La sala noastră specială din <strong>Eching</strong>, organizăm
+              cele mai mari petreceri românești din zona München. De la muzică
+              populară autentică până la cele mai noi hituri de manele, aducem
+              artiștii tăi preferați aproape de tine!
+            </p>
+
+            <div class="event-highlights">
+              <div class="h-item">
+                <span class="h-title">Sălă de Evenimente</span>
+                <span class="h-desc"
+                  >Spațiu generos în Eching pentru sute de invitați.</span
+                >
+              </div>
+              <div class="h-item">
+                <span class="h-title">Muzică Live</span>
+                <span class="h-desc"
+                  >Soliști de top, formații live și atmosferă incendiară.</span
+                >
+              </div>
+              <div class="h-item">
+                <span class="h-title">Meniu Festiv</span>
+                <span class="h-desc"
+                  >Mâncare tradițională din belșug și băuturi alese.</span
+                >
+              </div>
+            </div>
+
+            <div class="booking-box">
+              <p>Vrei să afli când e următoarea petrecere?</p>
+              <a href="https://wa.me/numar-telefon" class="cta-button-gold"
+                >Rezervă Masă / Bilete</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <div class="container">
+        <div class="contact-grid">
+          <div class="contact-info">
+            <span class="subtitle">Contact</span>
+            <h2>Vă așteptăm în noua locație</h2>
+            <div class="separator-left"></div>
+
+            <div class="info-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <h4>Adresă</h4>
+                <p>Schleißheimer Str. 61, 85221 Dachau, Germania</p>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <i class="fas fa-phone-alt"></i>
+              <div>
+                <h4>Rezervări</h4>
+                <p>+49 (Introduceți Numărul Nou)</p>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <i class="fas fa-clock"></i>
+              <div>
+                <h4>Program (Exemplu)</h4>
+                <p>Luni - Duminică: 12:00 - 22:00</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2654.455243171302!2d11.445233177119021!3d48.2575952712574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479e7a4e163f05bf%3A0x8445831345ab07d8!2sSchlei%C3%9Fheimer%20Str.%2061%2C%2085221%20Dachau%2C%20Germania!5e0!3m2!1sro!2sde!4v1700000000000!5m2!1sro!2sde"
+              width="100%"
+              height="450"
+              style="
+                border: 0;
+                border-radius: 15px;
+                filter: grayscale(1) invert(0.92) contrast(1.2);
+              "
+              allowfullscreen=""
+              loading="lazy"
+            >
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="social-sidebar">
+      <a href="#" class="social-icon fb"><i class="fab fa-facebook-f"></i></a>
+      <a href="#" class="social-icon insta"><i class="fab fa-instagram"></i></a>
+      <a href="#" class="social-icon tiktok"><i class="fab fa-tiktok"></i></a>
+      <a href="https://wa.me/numar-telefon" class="social-icon whatsapp"
+        ><i class="fab fa-whatsapp"></i
+      ></a>
+    </div>
+
+    <footer class="main-footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <span class="logo-text">CASA<span>RUSTICA</span></span>
+            <p>Gustul tradiției, inima României, acum în Dachau.</p>
+          </div>
+
+          <div class="footer-links">
+            <a href="#home">Acasă</a>
+            <a href="#despre">Despre Noi</a>
+            <a href="#meniu">Meniu</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2026 Proiect Casa Rustica. Toate drepturile rezervate.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const buttons = document.querySelectorAll(".tab-btn");
+        const items = document.querySelectorAll(".menu-item");
+
+        function filterMenu(category) {
+          // 1. Schimbăm starea butoanelor
+          buttons.forEach((btn) => {
+            if (btn.dataset.id === category) {
+              btn.classList.add("active");
+            } else {
+              btn.classList.remove("active");
+            }
+          });
+
+          // 2. Filtrăm produsele cu o mică animație
+          items.forEach((item) => {
+            if (item.dataset.category === category) {
+              item.style.display = "flex"; // Afișăm
+              setTimeout(() => {
+                item.classList.add("active");
+              }, 10);
+            } else {
+              item.classList.remove("active");
+              item.style.display = "none"; // Ascundem
+            }
+          });
+        }
+
+        // Setăm categoria inițială la încărcare (Aperitive)
+        filterMenu("aperitiv");
+
+        // Adăugăm evenimentele de click pentru butoane
+        buttons.forEach((button) => {
+          button.addEventListener("click", () => {
+            const category = button.dataset.id;
+            filterMenu(category);
+          });
+        });
+      });
+    </script>
+
+    <script>
+      const menuToggle = document.querySelector("#mobile-menu");
+      const navLinks = document.querySelector(".nav-links");
+
+      menuToggle.addEventListener("click", () => {
+        navLinks.classList.toggle("active");
+
+        // Opțional: Animăm burgerul (îl facem X)
+        menuToggle.classList.toggle("is-active");
+      });
+
+      // Închidem meniul automat când dăm click pe un link (secțiune)
+      document.querySelectorAll(".nav-links a").forEach((link) => {
+        link.addEventListener("click", () => {
+          navLinks.classList.remove("active");
+        });
+      });
+    </script>
+  </body>
+</html>
